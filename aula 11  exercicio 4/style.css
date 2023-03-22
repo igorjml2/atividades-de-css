@@ -1,0 +1,154 @@
+.container .container__title{
+    color: blue;
+
+    
+}
+.container .container__title:hover{
+
+color: brown;
+
+}
+
+.active .active__link:active {
+
+color: green;
+font-size: 50px;
+
+
+
+
+}
+
+.active .active__link:visited {
+
+color: red;
+
+
+}
+
+.formulario .formulario__nome:focus{
+
+padding: 15px;
+border: 5px solid brown;
+
+}
+
+.formulario .formulario__nome::placeholder{
+    color: yellow;
+}
+
+.lista .lista-frutas li:first-child {
+
+    color: red;
+
+
+
+}
+
+.lista .lista-frutas li:last-child {
+    color: yellowgreen;
+
+
+
+
+}
+
+.lista .lista-frutas li:nth-child(3) {
+
+
+    color: purple;
+
+}
+
+
+ul:first-of-type {
+
+
+    font-size: 30px;
+
+}
+
+
+ul:last-of-type{
+background-color: aquamarine;
+
+
+
+}
+
+ul:nth-of-type(3) {
+
+    color: green;
+
+
+}
+
+
+
+ul:not(.lista-pokemom){
+
+
+    color: orange;
+}
+
+
+.desativado option:disabled{
+
+background-color: red;
+
+}
+
+input[type=email]:invalid{
+    background-color: red;
+
+}
+
+input[type=email]:valid{
+
+    background-color: green;
+}
+ p::before{
+
+    content: 'inicio';
+    color: pink;
+ }
+
+ p::after{
+
+    content: 'final';
+    color: blueviolet;
+
+ }
+
+ p::first-letter{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+ }
+
+
+ .para::first-line{
+    font-size: 20px;
+    color: blue;
+
+
+ }
+
+ .para::selection {
+    background-color: blueviolet;
+    
+    color: yellow
+    
+
+
+
+ }
+
+.lista-pokemon li::marker{
+    color: green;
+    font-size: 40px;
+
+
+}

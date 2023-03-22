@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+margin: 10%;
+padding: 0%;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.desafio1 {
+    background-color: green;
+    
+    color: orange;
+
+}
+
+
+
+
+
+
+#lista1 {
+    background-color: green;
+
+    color: #0000FF;
+
+    list-style: circle;
+    
+}
+
+#lista2 {
+    background-color: green;
+
+    color: #0000FF;
+    
+    list-style: circle;
+}

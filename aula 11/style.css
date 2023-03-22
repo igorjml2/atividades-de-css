@@ -1,0 +1,34 @@
+.container .container__title{
+    color: blue;
+
+    
+}
+.container .container__title:hover{
+
+color: brown;
+
+}
+
+.active .active__link:active {
+
+color: green;
+font-size: 50px;
+
+
+
+
+}
+
+.active .active__link:visited {
+
+color: red;
+
+
+}
+
+.formulario .formulario__nome:focus{
+
+padding: 15px;
+border: 5px solid brown;
+
+}

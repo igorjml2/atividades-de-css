@@ -1,0 +1,51 @@
+.translate1:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: yellow;
+    transform: translate(10px,20px);
+    transform: rotateX(20deg);
+}
+
+.translate2:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: red;
+    transform: translate(14px,30px);
+    transform: rotateY(59deg);
+
+}
+
+.translate3:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    transform: translate(14px,30px);
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+    transform: rotateZ(10deg);
+    
+}
+
+.translate4:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: blue;
+    transform: translate(14px,30px);
+    transform: rotateZ(38deg);
+    transform: rotateX(30deg);
+}
+
+.translate5:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: aqua;
+    transform: translate(14px,30px);
+    transform:rotateX(40deg);
+    transform: rotateY(39deg);
+    
+}
